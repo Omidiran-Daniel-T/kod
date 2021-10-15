@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(240, 240, 240);
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form {
+  background-color: white;
+  width: 400px;
+  box-shadow: 10px 10px 10px 10px rgb(235, 235, 235);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-top: 5px solid #e52210;
+}
+label,
+.click-here {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(145, 145, 145);
+}
+.input {
+  height: 40px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(241, 241, 241);
+}
+.input::placeholder {
+  color: rgb(209, 209, 209);
+}
+.input:focus {
+  outline: none;
+  border: 1px solid rgb(150, 150, 150);
+}
+.form-group {
+  /* background-color: green; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btns {
+  height: 40px;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #e52210;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+}
+.btns:hover {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.regs {
+  background-color: #292f36;
+}
+label,
+input,
+button {
+  display: block;
+}
+
+.click-here-link {
+  text-decoration: none;
+  color: rgb(30, 30, 30);
+}
+.click-here-link:hover {
+  color: #e52210;
+  text-decoration: underline;
+}
+.gg-btn {
+  background-color: #292f36;
+  color: #fff;
+  font-size: small;
+  font-weight: 600;
+}
+.gg-icon-wrap {
+  margin-right: 20px;
+}
+.fb-btn {
+  background-color: #3b5998;
+  color: #fff;
+  font-size: small;
+  font-weight: 600;
+}
+.fb-icon-wrap {
+  margin-right: 20px;
+}
+.fb-btn:hover {
+  background-color: #2c416e;
+}
+.twt-btn {
+  background-color: #00acee;
+  color: #fff;
+  font-size: small;
+  font-weight: 600;
+}
+.twt-icon-wrap {
+  margin-right: 20px;
+}
+.twt-btn:hover {
+  background-color: #0090c9;
+}
+
+hr {
+  border: 1px dashed gray;
+  width: 200px;
+}
+.gray-hover:hover {
+  background-color: #121417;
+}
+.red-hover:hover {
+  background-color: #c01b0c;
+}
