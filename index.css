@@ -105,15 +105,19 @@ footer {
 }
 .info {
   width: 30%;
-  background-color: green;
+  /* background-color: green; */
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 50px;
 }
 
 .usefull-links {
   width: 30%;
-  background-color: blue;
+  /* background-color: blue; */
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .usefull-links div {
   display: flex;
@@ -123,14 +127,37 @@ footer {
 }
 .usefull-links li a {
   text-decoration: none;
+  color: #fff;
+  font-size: 15px;
 }
 .usefull-links span {
   margin-left: 40px;
+  font-weight: bolder;
+  color: #2e86ab;
 }
 .subscribe {
+  padding-top: 50px;
   width: 40%;
+  color: #fff;
+  padding-right: 20px;
+  margin-left: 40px;
 }
-
+.subscribe input {
+  height: 40px;
+  width: 200px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.subscribe button {
+  height: 42px;
+  width: 100px;
+  border: none;
+  background-color: #2e86ab;
+  color: #fff;
+  font-weight: 700;
+}
 .top-slider {
   background-color: #f0f0f0;
   height: 40vh;
@@ -149,19 +176,56 @@ footer {
   border-radius: 5px;
   box-shadow: 5px 5px 5px 5px rgb(226, 226, 226);
 }
+.slider-item:hover {
+  cursor: pointer;
+}
 .slider-item button {
   height: 50px;
   width: 120px;
   align-self: center;
   border-radius: 5px;
+  /* border: 1px solid #2e86ab; */
   border: none;
   font-weight: bolder;
-  color: #2e86ab;
-  background: #fff;
+  /* color: #2e86ab; */
+  color: white;
+  /* background: #fff; */
+  background-color: #2e86ab;
+}
+.slider-item button:hover {
+  background-color: #246683;
 }
 
 #slider-item1 {
-  background-image: url("images/drinks.jpg");
+  /* background-image: url("images/drinks.jpg"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/drinks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#slider-item2 {
+  /* background-image: url("images/smoothie.jpg"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/smoothie.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#slider-item3 {
+  /* background-image: url("images/wine.jpg"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/wine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#slider-item4 {
+  /* background-image: url("images/liquor.jpg"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/liquor.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -193,7 +257,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-right: 2px solid #2e86ab;
+  /* border-right: 2px solid #2e86ab; */
 }
 .des-head {
   color: #2e86ab;
@@ -229,4 +293,14 @@ footer {
 .img img {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  height: 180px;
+  width: 150px;
+}
+
+.ig-icon {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
 }

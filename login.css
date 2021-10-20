@@ -1,5 +1,10 @@
 body {
   background-color: rgb(240, 240, 240);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./images/gg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 0px;
   margin: 0px;
   display: flex;
@@ -11,8 +16,9 @@ body {
 
 .form {
   background-color: white;
+  opacity: 0.9;
   width: 400px;
-  box-shadow: 10px 10px 10px 10px rgb(235, 235, 235);
+  /* box-shadow: 10px 10px 10px 10px rgb(88, 88, 88); */
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom-left-radius: 7px;
